@@ -36,3 +36,6 @@ SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_X := 656
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_Y := 129
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS += DOUBLE_TAP_PATH
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_DOUBLE_TAP_PATH := /sys/devices/platform/soc/c80000.i2c/i2c-5/5-0020/double_tap_pressed
+
+# Include the proprietary files BoardConfig.
+include vendor/oneplus/guacamoleb/BoardConfigVendor.mk
